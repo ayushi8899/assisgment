@@ -1,0 +1,59 @@
+Q1.create table employee
+(
+empid int AUTO_INCREMENT primary key,
+firstname varchar(255),
+lastname varchar(255
+salary float,
+joiningdate varchar(255),
+department varchar(255)
+)
+
+Q2.insert into employee
+insert into tbl_employee
+values('null','charmi','araniya','18000','11/02/2002','cs'),
+('null','ami','khut','20000','14/03/2002','banking'),
+('null','shrushti','raval','22000','16/03/2002','hr'),
+('null','nidhi','kalariya','24000','18/04/2002','insurance'),
+('null','shraddha','desai','26000','12/05/2002','service'),
+('null','shivani','kaila','28000','21/06/2002','manager'),
+('null','riya','patel','30000','22/07/2002','banking'),
+('null','bhakti','padaliya','32000','1/08/2002','cs'),
+('null','pragti','vekriya','34000','15/09/2002','it')
+
+Q3.create table incentives
+(
+  incentivieid int AUTO_INCREMENT primary key,
+  empid int REFERNCES employee(empid),
+  incentivedate varchar(255),
+  incentive_ammount float
+)
+
+Q4.INSERT into incentives
+VALUES('null','1','15000','1/02/2002'),
+('null','2','18000','11/02/2002')
+ 
+Q5.select*from employee order by firstname ASC;
+
+Q6.select firstname,joining_date from employee;
+
+Q7.select*from employee order by firstname and salary DESC;
+
+Q8.select*from employee where firstname like '%a%';
+
+Q9.create table tbl_insentive
+(
+   insentiveid int AUTO_INCREMENT PRIMARY KEY,
+    employee_ref_id varchar(255),
+    incentive_date varchar(255),
+    incentive_amount varchar(255)
+)    
+ 
+Q.10 insert into tbl_insentive
+(insentiveid,employee_ref_id,incentive_date,incentive_amount)
+VALUES('null','1','2013-02-01','5000'),
+('null','2','2013-02-01','3000'),
+('null','3','2013-02-01','4000'),
+('null','4','2013-01-01','4500'),
+('null','5','2013-01-01','3500')
+
+         
