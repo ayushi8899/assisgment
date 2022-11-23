@@ -1,0 +1,20 @@
+ans:-1    object oriented programming:- programing pradigm based on the concept of object ,which can contain data and code,data in the from of field and code in the from of procedures.
+A common features of object is that procedures are attached to them and can access and modify the object data fields in the brand of oop,there is usally a special name such as 
+this or self used refer to the current object.in oop computer program are design by making theam out of object that interface with one another.
+
+
+ans:-2 there are three major features in object oriented programing that makes them dofferent than non-language: encapsulation ,inheritance,and polymorphism
+
+ans:-3 
+         abstract class:- 1)abstract class can have abstact and non abstract method 
+                                     2)abstract class doest support multi inheritance
+                                     3) abstract class can have final ,non final static and non static variables.
+                                      4)abstract class can provide the implement of interface
+
+           interface:- 1) interface can have only abstrsct  methods since java 8 it can have defalut and static method also
+                              2) interface support multiple inheritance
+                              3) interface has only static and final variable
+                              4)interface cant provide the implementation of abstract class
+
+
+                                        
